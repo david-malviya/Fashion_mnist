@@ -10,8 +10,9 @@ import h5py
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 # model_path = f"{working_dir}/trained_model/Fashion_mnist_trained_model.h5"
-# model_path = "trained_model/Fashion_mnist_trained_model.h5"
-model_path = r"C:\Users\Lenovo\Desktop\Website for Fashion_mnist\app\trained_model\Fashion_mnist_trained_model.h5"
+model_path = "trained_model/Fashion_mnist_trained_model.h5"
+
+# model_path = r"C:\Users\Lenovo\Desktop\Website for Fashion_mnist\app\trained_model\Fashion_mnist_trained_model.h5"
 
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
