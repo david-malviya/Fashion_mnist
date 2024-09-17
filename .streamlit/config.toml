@@ -8,11 +8,9 @@ level = "info"
 magicEnabled = true
 
 [server]
-# Do not specify the port, Streamlit handles it automatically
 headless = true
 liveSave = false
 enableCORS = false
 
 [browser]
-# Use default settings
-serverAddress = "localhost"
+serverAddress = "0.0.0.0"
