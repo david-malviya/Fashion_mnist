@@ -1,0 +1,18 @@
+[global]
+showWarningOnDirectExecution = true
+
+[logger]
+level = "info"
+
+[runner]
+magicEnabled = true
+
+[server]
+# Do not specify the port, Streamlit handles it automatically
+headless = true
+liveSave = false
+enableCORS = false
+
+[browser]
+# Use default settings
+serverAddress = "localhost"
